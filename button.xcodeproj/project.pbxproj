@@ -14,6 +14,15 @@
 		2F45A5741BC8E98400F69D2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F45A5731BC8E98400F69D2F /* Images.xcassets */; };
 		2F45A5771BC8E98400F69D2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F45A5751BC8E98400F69D2F /* LaunchScreen.xib */; };
 		2F45A5831BC8E98400F69D2F /* buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F45A5821BC8E98400F69D2F /* buttonTests.m */; };
+		2F45A58E1BC92A9A00F69D2F /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F45A58C1BC92A9A00F69D2F /* down.png */; };
+		2F45A58F1BC92A9A00F69D2F /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F45A58D1BC92A9A00F69D2F /* up.png */; };
+		2F9CAB411BDDCF8200723823 /* SlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CAB401BDDCF8200723823 /* SlipView.m */; };
+		2F9CAB461BDDDBC900723823 /* SlipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CAB451BDDDBC900723823 /* SlipButton.m */; };
+		2F9CAB901BDF1D4E00723823 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CAB8F1BDF1D4E00723823 /* pause.png */; };
+		2F9CAB921BDF1F9000723823 /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CAB911BDF1F9000723823 /* done.png */; };
+		2F9CAB941BDF219E00723823 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CAB931BDF219E00723823 /* start.png */; };
+		2F9CAB961BDF21A800723823 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CAB951BDF21A800723823 /* continue.png */; };
+		2F9CAB981BDF22AB00723823 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CAB971BDF22AB00723823 /* right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,17 @@
 		2F45A57C1BC8E98400F69D2F /* buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F45A5811BC8E98400F69D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F45A5821BC8E98400F69D2F /* buttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buttonTests.m; sourceTree = "<group>"; };
+		2F45A58C1BC92A9A00F69D2F /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		2F45A58D1BC92A9A00F69D2F /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		2F9CAB3F1BDDCF8200723823 /* SlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipView.h; sourceTree = "<group>"; };
+		2F9CAB401BDDCF8200723823 /* SlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlipView.m; sourceTree = "<group>"; };
+		2F9CAB441BDDDBC900723823 /* SlipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipButton.h; sourceTree = "<group>"; };
+		2F9CAB451BDDDBC900723823 /* SlipButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlipButton.m; sourceTree = "<group>"; };
+		2F9CAB8F1BDF1D4E00723823 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		2F9CAB911BDF1F9000723823 /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		2F9CAB931BDF219E00723823 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		2F9CAB951BDF21A800723823 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
+		2F9CAB971BDF22AB00723823 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,17 @@
 				2F45A56B1BC8E98400F69D2F /* AppDelegate.m */,
 				2F45A56D1BC8E98400F69D2F /* ViewController.h */,
 				2F45A56E1BC8E98400F69D2F /* ViewController.m */,
+				2F9CAB3F1BDDCF8200723823 /* SlipView.h */,
+				2F9CAB401BDDCF8200723823 /* SlipView.m */,
+				2F9CAB441BDDDBC900723823 /* SlipButton.h */,
+				2F9CAB451BDDDBC900723823 /* SlipButton.m */,
+				2F45A58C1BC92A9A00F69D2F /* down.png */,
+				2F45A58D1BC92A9A00F69D2F /* up.png */,
+				2F9CAB8F1BDF1D4E00723823 /* pause.png */,
+				2F9CAB911BDF1F9000723823 /* done.png */,
+				2F9CAB931BDF219E00723823 /* start.png */,
+				2F9CAB951BDF21A800723823 /* continue.png */,
+				2F9CAB971BDF22AB00723823 /* right.png */,
 				2F45A5701BC8E98400F69D2F /* Main.storyboard */,
 				2F45A5731BC8E98400F69D2F /* Images.xcassets */,
 				2F45A5751BC8E98400F69D2F /* LaunchScreen.xib */,
@@ -199,9 +230,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F45A58F1BC92A9A00F69D2F /* up.png in Resources */,
 				2F45A5721BC8E98400F69D2F /* Main.storyboard in Resources */,
 				2F45A5771BC8E98400F69D2F /* LaunchScreen.xib in Resources */,
+				2F9CAB901BDF1D4E00723823 /* pause.png in Resources */,
+				2F9CAB961BDF21A800723823 /* continue.png in Resources */,
+				2F9CAB941BDF219E00723823 /* start.png in Resources */,
+				2F9CAB921BDF1F9000723823 /* done.png in Resources */,
 				2F45A5741BC8E98400F69D2F /* Images.xcassets in Resources */,
+				2F9CAB981BDF22AB00723823 /* right.png in Resources */,
+				2F45A58E1BC92A9A00F69D2F /* down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9CAB461BDDDBC900723823 /* SlipButton.m in Sources */,
+				2F9CAB411BDDCF8200723823 /* SlipView.m in Sources */,
 				2F45A56F1BC8E98400F69D2F /* ViewController.m in Sources */,
 				2F45A56C1BC8E98400F69D2F /* AppDelegate.m in Sources */,
 				2F45A5691BC8E98400F69D2F /* main.m in Sources */,
@@ -299,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,7 +387,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = button/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = button/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +460,7 @@
 				2F45A5881BC8E98400F69D2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F45A5891BC8E98400F69D2F /* Build configuration list for PBXNativeTarget "buttonTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +469,7 @@
 				2F45A58B1BC8E98400F69D2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
